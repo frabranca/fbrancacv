@@ -3,6 +3,14 @@
 
 <head>
 
+  <style>
+    /* Define CSS variables inside the :root selector for global use */
+    :root {
+      --primary-color: rgb(100, 166, 214);
+      --secondary-color: rgb(53, 53, 53);
+    }
+  </style>
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -83,7 +91,7 @@
 <body>  
   <!-- Navigation Menu-->
   <!-- Nav class 1 -->
-  <ul class="side-nav fixed section table-of-contents" style="width: 220px; background-color: rgb(100, 166, 214); border-radius: 20px;">
+  <ul class="side-nav fixed section table-of-contents" style="width: 220px; background-color: primary-color; border-radius: 20px;">
 
     <li class="logo" style="width: 220px; height: 150px; outline: none; border: none;">
       <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
@@ -185,14 +193,14 @@
                 Specialized in Machine Learning & Control Engineering.</h5>
             </div>
             <div class="social">
-              <a href="https://github.com/frabranca/" target="_blank" style="color: rgb(100, 166, 214);">
+              <a href="https://github.com/frabranca/" target="_blank" style="color: primary-color;">
                 <span class="fa-stack fa-3x">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                 </span>
               </a>
 
-              <a href="https://www.linkedin.com/in/francesco-branca/" target="_blank"  style="color: rgb(100, 166, 214);">
+              <a href="https://www.linkedin.com/in/francesco-branca/" target="_blank"  style="color: primary-color;">
                 <span class="fa-stack fa-3x">
                   <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -206,7 +214,7 @@
 
     <!-- Second Section: About -->
     <section id="about" class="section scrollspy" style="margin: 0; padding: 0; background-image: url(../../fbrancacv/assets/img/background-pic.jpeg)">
-      <h3 class="page-title" style="color: white; background-color: rgb(100, 166, 214); margin-left: 220px; padding: 20px 40px; margin-top: 0;">ABOUT</h3>
+      <h3 class="page-title" style="color: white; background-color: primary-color; margin-left: 220px; padding: 20px 40px; margin-top: 0;">ABOUT</h3>
       <div class="container flow-text" style="color: white; background-color: rgba(0, 0, 0, 0.5); margin-left: 250px; padding: 10px; border-radius: 5px; display: inline-block;">
         <p>
           I am an Aerospace Engineering Graduate. I have a strong background in <em>Machine Learning</em>, <br> <em>Computer Vision</em>, and <em>Control Engineering</em>.
@@ -225,7 +233,7 @@
 
     <!-- Third Section: Experience -->
     <section id="experience" class="section scrollspy" style="margin-top: 0; padding-top: 0;">
-      <h3 class="page-title" style="color: white; background-color: rgb(100, 166, 214); margin-left: 220px; padding: 20px 40px; margin-top: 0;">EXPERIENCE</h3>
+      <h3 class="page-title" style="color: white; background-color: primary-color; margin-left: 220px; padding: 20px 40px; margin-top: 0;">EXPERIENCE</h3>
       <div class="container">
 
         <!-- Latest Experience -->
@@ -240,7 +248,7 @@
                 <p>
                   <span class="card-title">
                     <a href="https://www.tudelft.nl/" target="_blank" class="hoverline" 
-                    style="color: rgb(100, 166, 214); font-weight: bold; text-decoration: none; font-size: 30px" 
+                    style="color: primary-color; font-weight: bold; text-decoration: none; font-size: 30px; margin-bottom: 0" 
                     onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">TU Delft</a>
                     <span style="display: block; font-size: 20px; font-weight: normal; margin-top: 0; color: black">Teaching Assistant</span>
                 </span>
@@ -271,7 +279,7 @@
               <div class="col s12 m10">
                 <p>
                   <span class="card-title"><a href="https://www.dfki.de/en/web" target="_blank" class="hoverline"
-                      style="color: rgb(100, 166, 214); font-weight: bold; text-decoration: none; font-size: 30px" 
+                      style="color: primary-color; font-weight: bold; text-decoration: none; font-size: 30px; margin-bottom: 0;" 
                       onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">DFKI</a>
                       <span style="display: block; font-size: 20px; font-weight: normal; margin-top: 0; color: black">Robotics Engineer</span>
                     </span>
@@ -295,7 +303,7 @@
 
     <!-- Fourth Section: Projects -->
     <section id="projects" class="section scrollspy" style="margin-top: 0; padding-top: 0;">
-      <h3 class="page-title" style="color: white; background-color: rgb(100, 166, 214); margin-left: 220px; padding: 20px 40px; margin-top: 0;">PROJECTS</h3>
+      <h3 class="page-title" style="color: white; background-color: primary-color; margin-left: 220px; padding: 20px 40px; margin-top: 0;">PROJECTS</h3>
       <div class="container">
         <div class="row">
 
@@ -567,7 +575,7 @@
 
     <!-- Fifth Section: Skills -->
     <section id="skills" class="section scrollspy" style="margin-top: 0; padding-top: 0;">
-      <h3 class="page-title" style="color: white; background-color: rgb(100, 166, 214); margin-left: 220px; padding: 20px 40px; margin-top: 0;">SKILLS</h3>
+      <h3 class="page-title" style="color: white; background-color: primary-color; margin-left: 220px; padding: 20px 40px; margin-top: 0;">SKILLS</h3>
       <div class="container">
         <!-- Languages and Databases -->
         <div class="card">
@@ -670,7 +678,7 @@
 
     <!-- Seventh Section: Education -->
     <section id="education" class="section scrollspy"  style="margin-top: 0; padding-top: 0;">
-      <h3 class="page-title" style="color: white; background-color: rgb(100, 166, 214); margin-left: 220px; padding: 20px 40px; margin-top: 0;">EDUCATION</h3>
+      <h3 class="page-title" style="color: white; background-color: primary-color; margin-left: 220px; padding: 20px 40px; margin-top: 0;">EDUCATION</h3>
       <div class="container">
         <div class="row">
           <!-- Education -->
@@ -738,7 +746,7 @@
 
     <!-- Eight Section: Contact -->
     <section id="contact" class="section scrollspy full-height"  style="margin-top: 0; padding-top: 0;">
-      <h3 class="page-title" style="color: white; background-color: rgb(100, 166, 214); margin-left: 220px; padding: 20px 40px; margin-top: 0;">CONTACT</h3>
+      <h3 class="page-title" style="color: white; background-color: primary-color; margin-left: 220px; padding: 20px 40px; margin-top: 0;">CONTACT</h3>
       <div class="container">
         <p>
           <a aria-label="Call Varad" data-position="top" data-tooltip="Call Varad"
